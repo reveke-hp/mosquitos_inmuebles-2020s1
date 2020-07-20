@@ -39,8 +39,7 @@ Estos tests deben ser independientes.
 
 
 ## 2. Rutinas.
-A cada paciente se le asigna una _rutina_ para realizar cuando acude a al centro a realizar una sesión. 
-La rutina consiste en una serie de aparatos a ser usados en un orden determinado. 
+A cada paciente se le asigna una serie de aparatos a ser usados en un orden determinado, cuando acude a al centro a realizar una sesión. A esto lo llamaremos la _rutina_ asignada al cliente.  
 Una rutina puede incluir que se utilice más de una vez el mismo aparato. Por ejemplo: una bicicleta, un minitramp, la misma bicicleta de nuevo, un magneto.  
 Cada vez que un paciente concurre al centro, realiza la rutina que tiene asignada.  
 A efectos de simplificar el programa, consideramos que cada paciente tiene "sus" aparatos asignados, y que cada vez que va al centro, usa los mismos. En el ejemplo, aunque el centro tenga 20 bicicletas, el paciente va a usar siempre la misma. 
@@ -95,8 +94,8 @@ Salvo la bicicleta roja y el magneto verde, todos los aparatos son blancos.
 Verificar que:
 - Nicolás puede hacer la rutina que tiene asignada. Después de hacerla una vez, su nivel de dolor baja a 1.8, y su fortaleza sube a 34.
 - Victoria no puede hacer la rutina que tiene asignada.
-- Julián puede hacer la rutina que tiene asignada. Después de hacerla una vez, su nivel de dolor baja a 41, y su fortaleza sube a 56.
-- Zoe puede hacer la rutina que tiene asignada. Después de asignar a 2 el valor de decremento de dolor para pacientes de rápida recuperación, y de que Zoe haga su rutinauna vez, su nivel de dolor baja a 3.4, y su fortaleza sube a 53.
+- Julián puede hacer la rutina que tiene asignada. Después de hacerla una vez, su nivel de dolor baja a 29.3, y su fortaleza sube a 62.
+- Zoe puede hacer la rutina que tiene asignada. Después de asignar a 2 el valor de decremento de dolor para pacientes de rápida recuperación, y de que Zoe haga su rutinauna vez, su nivel de dolor baja a 3.4, y su fortaleza sube a 51.
 
 
 ## 4. El centro.
