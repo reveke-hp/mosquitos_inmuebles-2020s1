@@ -7,7 +7,7 @@ En `./src/` hay dos archivos:
 Se pide:
 1. Indicar qué atributos tiene cada uno de los cuatro mosquitos creados en el test.
 1. Indicar cuáles de ellos cambian su valor si a cada uno le envío el mensaje `picar(malena)`.
-1. Supongamos que `mosquito4` tiene 8 de `densidad`, 10 de `veneno` y 300 de `aguante`. ¿Quiere picar? Explicar por qué.
+1. Supongamos que `mosquito4` tiene 8 de `mortalidad`, 10 de `veneno` y 300 de `aguante`. ¿Quiere picar? Explicar por qué.
 1. Agregamos este método en `MosquitoConVeneno`
     ```
         method quierePicar() = veneno > 5
@@ -19,7 +19,7 @@ Se pide:
     1. `peso`
     1. `picadorFrecuente`
     1. `esMortal`
-1. Con el código original, supongamos que el aguante del `mosquito3` es 150 y de los otros tres es 3000, el peso de mosquito1 y mosquito2 es 40, y la mortalidad del mosquito4 es 35. Si le pregunto a cada uno si `quierePicar`, ¿qué me responden?
+1. Con el código original, supongamos que el aguante del `mosquito3` es 150 y de los otros tres es 3000, el peso de `mosquito1` y `mosquito2` es 40, y la `mortalidad` del `mosquito4` es 35. Si le pregunto a cada uno si `quierePicar`, ¿qué me responden?
 1. Con el código original, agreguemos esta variable al test:
     ```
         var mosquito5 = new MosquitoAguantador()
