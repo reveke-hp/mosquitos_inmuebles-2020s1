@@ -64,7 +64,7 @@ class MosquitoConVenenoMortal inherits MosquitoConVeneno {
     }
 }
 
-class MosquitoAguantador {
+class MosquitoAguantador inherits MosquitoConVenenoMortal {
     override aguante() {
         return super() + 500
     }
