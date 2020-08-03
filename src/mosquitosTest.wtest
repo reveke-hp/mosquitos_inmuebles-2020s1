@@ -1,0 +1,7 @@
+test "mosquitos" {
+    var mosquito1 = new MosquitoPesado()
+    var mosquito2 = new MosquitoGloton()
+    var mosquito3 = new MosquitoConVeneno()
+    var mosquito4 = new MosquitoConVenenoMortal()
+    var malena = new Estudiante()
+}
