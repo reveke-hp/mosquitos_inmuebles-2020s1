@@ -1,0 +1,5 @@
+test "casa alpina" {
+    var casaAlp = new Inmueble("casa alpina")
+    armado.armar(casaAlp,"blano")
+    // etc.
+}

@@ -1,4 +1,4 @@
-# Mosquitos integrador
+# Mosquitos
 
 En `./src/` hay dos archivos:
 - `mosquitos.wlk`, y
@@ -28,3 +28,13 @@ Se pide:
 1. Agregar las siguientes variantes de mosquitos:
     1. `MosquitoConVenenoSabio`, es como los mosquitos con veneno, con la única diferencia que si tiene más de 50 veneno entonces es picador frecuente, independientemente de la cantidad de picados. Si no llega a 50 el veneno, entonces sí corre la condición que trae de la clase `Mosquito`.
     1. `MosquitoFiaca`: nunca quiere picar.
+
+# Inmuebles
+En `./src/` hay dos archivos:
+- `inmuebles.wlk`, y
+- `inmueblesTest.wtest`
+
+Se pide:
+1. Criticar la solución propuesta (especial atención en la repetición de código, la distribución de responsabilidades y el uso o ausencia de polimorfismo).
+1. Indicar qué se debe modificar en este código para agregar el inmueble tipo Departamento (tiene 3 ambientes, balcón, baulera, lavadero y techo de loza). Escribir cómo sería la línea que construye un inmueble departamento, es decir, a qué clase se le hace `new` y en caso de recibir parámetros en el constructor, cuáles son.
+1. Refactorizar el código para solucionar los problemas detectados en el primer ítem. ¡Vale agregar nuevas clases y mensajes! Indicar cómo quedarían las primeras dos líneas del test.
