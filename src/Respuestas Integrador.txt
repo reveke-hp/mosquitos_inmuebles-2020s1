@@ -1,4 +1,4 @@
- 
+ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  Respuestas Mosquitos:
  
  2)
@@ -50,8 +50,23 @@ class MosquitoFiaca inherits Mosquito{
 	override method quierePicar() { return false }
 }
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Respuestas Inmuebles :
 
+1)
+Primero a la clase armado se le agregaria en el method armar:
+		else if(unInmueble.tipo() == "departamento"){
+        	unInmueble.ponerAmbientes(3)
+        	unInmueble.ponerBalcon()
+        	unInmueble.ponerBaulera()
+        	unInmueble.ponerLavadero()
+        	unInmueble.ponerTechoLoza()
+        }
+
+Luego :  const departamento1 = new Inmueble() para crear el departamento1 
+Seguido poner departamento1.tipo("departamento") para darle un tipo
+armado.armar(departamento1,"colorAEleccion") para armar el departamento y darle un color
 
 
 

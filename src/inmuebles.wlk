@@ -18,7 +18,7 @@ object armado {
             unInmueble.ponerJardin()
             unInmueble.ponerLavadero()
             unInmueble.ponerTechoTejas(300)
-        }
+        } 
         unInmueble.pintar(unColor)
     }
 }
@@ -68,6 +68,7 @@ class Inmueble {
         caracteristicas.add( techo ) 
     }
     // Así para lavadero, jardín, establo, baulera
+    
 }
 
 
