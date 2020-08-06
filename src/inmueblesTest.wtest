@@ -1,5 +1,6 @@
 test "casa alpina" {
-    var casaAlp = new Inmueble("casa alpina")
+    var casaAlp = new Inmueble()
+    casaAlp.tipo("casa alpina")
     armado.armar(casaAlp,"blanco")
     // etc.
 }

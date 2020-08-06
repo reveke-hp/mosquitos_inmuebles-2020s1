@@ -38,6 +38,6 @@ En `./src/` hay dos archivos:
 - `inmueblesTest.wtest`
 
 Se pide:
-1. Criticar la solución propuesta (especial atención en la repetición de código, la distribución de responsabilidades y el uso o ausencia de polimorfismo).
-1. Indicar qué se debe modificar en este código para agregar el inmueble tipo Departamento (tiene 3 ambientes, balcón, baulera, lavadero y techo de loza). Escribir cómo sería la línea que construye un inmueble departamento, es decir, a qué clase se le hace `new` y en caso de recibir parámetros en el constructor, cuáles son.
-1. Refactorizar el código para solucionar los problemas detectados en el primer ítem. ¡Vale agregar nuevas clases y mensajes! Indicar cómo quedarían las primeras dos líneas del test.
+1. Indicar qué se debe modificar en este código para agregar el inmueble tipo Departamento (tiene 3 ambientes, balcón, baulera, lavadero y techo de loza, pueden vivir 4 personas fijo). Escribir cómo se construye un inmueble departamento, es decir, a qué clase se le hace `new`, y qué hay que hacer después del `new`.
+1. Criticar la solución propuesta. En particular, prestar atención al uso o ausencia de polimorfismo. También revisar  la distribución de responsabilidades, o sea, qué objeto hace cada cosa. Sobre esto, pensar en particular en el armado de un inmueble.
+1. Refactorizar el código para solucionar los problemas detectados en el ítem anterior. ¡Vale agregar nuevas clases y mensajes! Indicar cómo quedarían las primeras tres líneas del test.  
