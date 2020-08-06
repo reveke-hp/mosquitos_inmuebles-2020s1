@@ -76,7 +76,14 @@ armado.armar(departamento1,"colorAEleccion") para armar el departamento y darle 
 El method cuantaGentePuedeVivir() de la clase Inmueble tambien es muy exclusiva, mas que los determinados no podes agregarle nuevas opciones.
 
 
-3) 
+3) En la clase Inmueble yo crearia objetos donde definis el estilo del inmueble. Ej=
+object departamento {
+	var property cuantaGentePuedeVivir = 4
+}
+Para que al modificar dentro de la clase inmueble para que asi pueda ser mas generico y no tener que poner un numero limitado de opciones
+cuantaGentePuedeVivir(objeto){ return objeto.cuantaGentePuedeVivir() }
+
+
 
 
 
