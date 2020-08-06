@@ -3,7 +3,7 @@ class Mosquito {
     var cantidadDePicados = 0
 
     method picar(persona) {
-        potencia -= persona.peso()
+        aguante -= persona.peso()
         cantidadDePicados += 1
     }
 
