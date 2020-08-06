@@ -4,15 +4,21 @@
  2)
  
  var mosquito1 = new MosquitoPesado() :
- Tiene como atributos, aguante,cantidadDePicados y peso. 
+ Tiene como atributos, aguante,cantidadDePicados y peso.(es herencia de Mosquito)
  
  var mosquito2 = new MosquitoGloton() :
- Tiene como atributos, aguante y cantidadDePicados.
+ Tiene como atributos, aguante, cantidadDePicados y peso.(es herencia de MosquitoPesado)
  
- var mosquito3 = new MosquitoConVeneno()
- Tiene como atributos, aguante, cantidadDePicados y veneno.
+ var mosquito3 = new MosquitoConVeneno() :
+ Tiene como atributos, aguante, cantidadDePicados y veneno.(es herencia de Mosquito)
  
- var mosquito4 = new MosquitoConVenenoMortal()
+ var mosquito4 = new MosquitoConVenenoMortal() :
  Tiene como atributos, aguante, cantidadDePicados y mortalidad.
  
  var malena = new Estudiante()
+ 
+ 3) Todos cambian su valor de aguante al picar: 
+ _al MosquitoPesado() se le reduce el aguante muy levemente (es proporcional al peso de malena dividido por 100)
+ _MosquitoGloton() sufre el mismo cambio que el MosquitoPesado()
+ _
+ _
