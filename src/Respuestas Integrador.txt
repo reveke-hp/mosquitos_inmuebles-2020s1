@@ -1,0 +1,18 @@
+ 
+ Respuestas Mosquitos:
+ 
+ 2)
+ 
+ var mosquito1 = new MosquitoPesado() :
+ Tiene como atributos, aguante,cantidadDePicados y peso. 
+ 
+ var mosquito2 = new MosquitoGloton() :
+ Tiene como atributos, aguante y cantidadDePicados.
+ 
+ var mosquito3 = new MosquitoConVeneno()
+ Tiene como atributos, aguante, cantidadDePicados y veneno.
+ 
+ var mosquito4 = new MosquitoConVenenoMortal()
+ Tiene como atributos, aguante, cantidadDePicados y mortalidad.
+ 
+ var malena = new Estudiante()
