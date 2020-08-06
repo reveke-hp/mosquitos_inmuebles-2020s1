@@ -35,3 +35,24 @@ PicadorFrecuente = los 4 mosquitos.
 EsMortal = solo mosquito4 lo entiende.
 
 7)
+mosquito1, mosquito2 y mosquito 4 darian como resultado True ya que los 3 cumplen las condiciones.
+mosquito3 daria false ya que el aguante es inferior a la condicion.
+
+8) Si le pregunto a mosquito4 me daria un true porque tiene aguante(1800) mayor 500 y mortalidad(50) mayor a 4.
+Pero mosquito5 daria error ya que en el super() devuelve un booleano que con los parametros daria True, pero no podes sumarle numeros(valor) a un bool.
+
+9)
+class MosquitoConVenenoSabio inherits MosquitoConVeneno{
+	override method picadorFrecuente() { return veneno > 50 or super() }
+}
+
+class MosquitoFiaca inherits Mosquito{
+	override method quierePicar() { return false }
+}
+
+
+
+
+
+
+
