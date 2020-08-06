@@ -25,4 +25,13 @@
  
  4) mosquito4 no quiere picar, para quierePicar() sea True, osea que quiera, tiene que cumplir con dos condiciones, que su aguante sea mayor a 500 y que su mortalidad sea mayor a 4, la cual solo cumple mortalidad por tener 8.
  
- 5)
+ 5) Siendo el metodo solo compuesto por method quierePicar() = veneno > 5 sin super ni otra condicion, mosquito4 si quiere picar, daria True porque tiene 10 de veneno sobre 5.
+ 
+ 6)
+ descansar = mosquito3 y mosquito4 lo entienden.
+quierePicar = los 4 mosquitos lo entienden.
+Peso = mosquito1 y mosquito 2 lo entienden.
+PicadorFrecuente = los 4 mosquitos.
+EsMortal = solo mosquito4 lo entiende.
+
+7)
