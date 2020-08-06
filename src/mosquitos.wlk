@@ -56,7 +56,7 @@ class MosquitoConVenenoMortal inherits MosquitoConVeneno {
     }
 
     method esMortal() {
-        return mortalidad>10 and self.aguante>2000
+        return mortalidad>10 and self.aguante()>2000
     }
 
     override method quierePicar() {

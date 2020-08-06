@@ -5,6 +5,7 @@ En `./src/` hay dos archivos:
 - `mosquitosTest.wtest`
 
 Se pide:
+1. Hacer el diagrama de clases, incluyendo herencia y métodos.
 1. Indicar qué atributos tiene cada uno de los cuatro mosquitos creados en el test.
 1. Indicar cuáles de ellos cambian su valor si a cada uno le envío el mensaje `picar(malena)`.
 1. Supongamos que `mosquito4` tiene 8 de `mortalidad`, 10 de `veneno` y 300 de `aguante`. ¿Quiere picar? Explicar por qué.
@@ -27,7 +28,9 @@ Se pide:
     y supongamos que tanto `mosquito4` como `mosquito5` tienen: 50 como valor del atributo `mortalidad`, y 1800 como valor del atributo `aguante`. Si les pregunto a `mosquito4` y a `mosquito5` si `esMortal()`, ¿qué me responde en cada caso? Explicar.
 1. Agregar las siguientes variantes de mosquitos:
     1. `MosquitoConVenenoSabio`, es como los mosquitos con veneno, con la única diferencia que si tiene más de 50 veneno entonces es picador frecuente, independientemente de la cantidad de picados. Si no llega a 50 el veneno, entonces sí corre la condición que trae de la clase `Mosquito`.
-    1. `MosquitoFiaca`: nunca quiere picar.
+    1. `MosquitoFiaca`:  es como un mosquito común (ni pesado, ni glotón, ni con veneno), con la única diferencia de que nunca quiere picar.
+
+nunca quiere picar.
 
 # Inmuebles
 En `./src/` hay dos archivos:
