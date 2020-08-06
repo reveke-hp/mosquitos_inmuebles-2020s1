@@ -48,7 +48,7 @@ class Inmueble {
             return cantidadAmbientes + 1
         } else if (unInmueble.tipo() == "cabania") {
             return 5
-        }
+        } 
     }
     method ponerPatio(superficie) { 
         const patio = new Caracteristica()

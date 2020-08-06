@@ -63,10 +63,21 @@ Primero a la clase armado se le agregaria en el method armar:
         	unInmueble.ponerLavadero()
         	unInmueble.ponerTechoLoza()
         }
-
+y en la clase Inmueble, method cuantaGentePuedeVivir() hay que agregarle un 
+		else if (unInmueble.tipo() == "departamento"){
+        	return 4
+        }
+Para que me responda al crear departamento1 sino tira error
 Luego :  const departamento1 = new Inmueble() para crear el departamento1 
 Seguido poner departamento1.tipo("departamento") para darle un tipo
 armado.armar(departamento1,"colorAEleccion") para armar el departamento y darle un color
+
+2) La clase armado en el method armar no tiene mucho polimorfismo, si bien no esta la clase que necesitas no te sirve para agregar nuevas.
+El method cuantaGentePuedeVivir() de la clase Inmueble tambien es muy exclusiva, mas que los determinados no podes agregarle nuevas opciones.
+
+
+3) 
+
 
 
 
